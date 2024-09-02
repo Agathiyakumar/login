@@ -1,0 +1,136 @@
+
+body{
+    background-image: url('https://imgcdn.stablediffusionweb.com/2024/3/19/d7725eaa-4788-41c8-8c7c-a087a0e21b5a.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    }
+.formbtn{
+  
+    padding: 50px;
+   
+}
+.form1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+#logbtn1{
+    cursor: pointer;
+    font-family: cursive;
+
+    margin-top: 50px;
+    font-size: 3vh;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    height: 40px;
+    background-color: transparent;
+}
+#signbtn1{
+    font-family: cursive;
+
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 3vh;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    height: 40px;
+    
+}
+#input{
+    padding: 5px;
+}
+.form{
+    
+
+    margin: auto;
+ 
+   
+    border-radius: 12px;
+    
+}
+input::placeholder{
+    text-align: center;
+    color: lightgrey;
+}
+input{
+    
+    width: 70%;
+    height: 30px;
+    
+    margin-top: 40px;
+    font-size: 2.5vh;
+    border-radius: 100px;
+    border: none;
+}
+#signinbtn{
+    margin-top:10px ;
+    cursor: pointer;
+    background-color: transparent;
+    margin-bottom: 40px;
+    font-size: 3vh;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    height: 40px;
+}
+#loginbtn{
+    margin-top:50px ;
+ 
+    cursor: pointer;
+    margin-bottom: 50px;
+    font-size: 3vh;
+    background-color: transparent;
+
+    color: white;
+    border-radius: 5px;
+    border:none;
+    height: 40px;
+}
+.mainform{
+    text-align: center;
+     width: 30%;
+    
+   
+
+
+    backdrop-filter: blur(3px) saturate(130%);
+    -webkit-backdrop-filter: blur(0px) saturate(130%);
+    background-color: rgba(17, 25, 40, 0.432);
+    border-radius: 100px;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+@media(max-width:980px){
+    
+
+    .mainform{
+        width: 100%;
+       border-radius: 20px;
+    }
+    .formbtn{
+        padding: 0px;
+    }
+    #signinbtn{
+        margin-top: 20px;
+    }
+    input{
+    
+        width: 80%;
+        height: 20px;
+        
+        margin-top: 40px;
+        font-size: 2.5vh;
+        border-radius: 100px;
+        border: none;
+    }
+    
+}
